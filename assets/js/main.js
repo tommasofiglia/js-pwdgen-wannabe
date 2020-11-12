@@ -11,7 +11,7 @@ var color = prompt("Qual è il colore che ti piace di più?");
 
 // Variabile Anno corrente (ultime due cifre)
 var currentYear = parseInt(prompt("In che anno siamo?"));
-var lastTwoLetterYear = currentYear - 2000;
+var lastTwoNumbersYear = currentYear - 2000;
 
 
-document.getElementById('password').innerHTML = name + surname + color + lastTwoLetterYear;
+document.getElementById('password').innerHTML = name + surname + color + lastTwoNumbersYear;
